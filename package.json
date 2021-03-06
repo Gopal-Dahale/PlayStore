@@ -1,0 +1,24 @@
+{
+  "name": "playstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrape.js",
+  "type": "module",
+  "dependencies": {
+    "google-play-scraper": "^8.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gopal-Dahale/PlayStore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gopal-Dahale/PlayStore/issues"
+  },
+  "homepage": "https://github.com/Gopal-Dahale/PlayStore#readme"
+}
