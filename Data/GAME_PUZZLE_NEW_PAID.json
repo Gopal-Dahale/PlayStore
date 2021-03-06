@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Memory Game (Animals)",
+    "appId": "com.S7Software.MemoryGame",
+    "url": "https://play.google.com/store/apps/details?id=com.S7Software.MemoryGame",
+    "icon": "https://play-lh.googleusercontent.com/7ookXE8JczAsD3pFFICESJzz57FTCQG3mGwzHVtbh2-TSkxS0JksI81-caL83CW1IQ",
+    "developer": "S7-SOFTWARE",
+    "developerId": "S7-SOFTWARE",
+    "priceText": "₹49.99",
+    "currency": "₹",
+    "price": 49.99,
+    "free": false,
+    "summary": "Fun memory game with colorful animals.",
+    "scoreText": "5.0",
+    "score": 5
+  }
+]

@@ -1,29 +1,87 @@
+/**
+ * Scraping Google play store data using google-play-scraper
+ */
+
 const gplay = require("google-play-scraper"); // Scraper library
 const fs = require("fs"); // File Handling
-const stream = fs.createWriteStream("Data/data.json", { flags: "a" }); // Beware of overwriting, use flags carefully
 
-function googlePlayAppsList(collections, categories, maxCount = 100) {
-  let stream, fileName;
-  for (i in categories) {
-    for (j in collections) {
-      fileName = "Data/" + i + "_" + j + ".json";
-      console.log(fileName);
+/**
+ * Function to fetch apps data via search
+ * @param {string[]} searchList - List of search terms
+ * @param {string[]} priceList - Prices list. Possibles values: all, free, paid
+ * @param {number} maxCount - maximum count of data to fetch
+ */
+function googlePlayAppsListViaSearch(searchList, priceList, maxCount = 250) {
+  maxCount = maxCount > 250 ? 250 : maxCount;
+  console.log(maxCount);
+  searchList.forEach((term) => {
+    priceList.forEach((price) => {
+      gplay
+        .search({
+          term: term,
+          num: maxCount,
+          lang: "en",
+          country: "in",
+          price: price,
+          throttle: 5, // The method will perform batches of 5 requests per second
+        })
+        .then((res) => {
+          console.log("Successful: " + term + " " + price);
+
+          // Write to file
+          filePath =
+            "Data/" +
+            term.toUpperCase().replace(/ /g, "_") +
+            "_" +
+            price.toUpperCase() +
+            ".json";
+          stream = fs.createWriteStream(filePath, { flags: "a" });
+          stream.write(JSON.stringify(res));
+        })
+        .catch((err) => {
+          console.log("Error for " + term + " " + price + ": " + err);
+        });
+    });
+  });
+}
+
+/**
+ *
+ * @param {string[]} collections - List of valid collections. See gplay.collection
+ * @param {string[]} categories - List of valid categories. See gplay.category
+ * @param {number} maxCount - maximum count of data to fetch
+ */
+async function googlePlayAppsList(collections, categories, maxCount = 500) {
+  let stream, filePath;
+  for (catKey in categories) {
+    for (collnKey in collections) {
+      gplay
+        .list({
+          category: categories[catKey],
+          collection: collections[collnKey],
+          num: maxCount,
+          country: "in",
+          lang: "en",
+          throttle: 5, // The method will perform batches of 5 requests per second
+        })
+        .then((res) => {
+          console.log("Successful: " + catKey + " " + collnKey);
+
+          // Write to file
+          filePath = "Data/" + catKey + "_" + collnKey + ".json";
+          stream = fs.createWriteStream(filePath, { flags: "a" }); // Beware of overwriting, use flags carefully
+          stream.write(JSON.stringify(res));
+        })
+        .catch((err) => {
+          console.log("Error for " + catKey + " " + collnKey + ": " + err);
+        });
+
+      await new Promise((resolve) => setTimeout(() => resolve(), 5000)); // Wait for 5 seconds
     }
   }
-
-  // gplay
-  //   .list({
-  //     category: gplay.category.GAME_ADVENTURE,
-  //     collection: gplay.collection.TOP_PAID,
-  //     num: 10,
-  //     country: "in",
-  //     lang: "en",
-  //     throttle: 10,
-  //   })
-  //   .then((res) => {
-  //     stream.write(JSON.stringify(res));
-  //   });
 }
+
+// Main
 
 let collections = gplay.collection; // Object of collections
 let categories = gplay.category; // Object of categories
@@ -35,13 +93,22 @@ delete collections.TOP_PAID_GAMES;
 delete collections.NEW_PAID_GAMES;
 delete collections.NEW_FREE_GAMES;
 
-// console.log(collections, Object.keys(collections).length);
+console.log(collections, Object.keys(collections).length);
+
+for (collection in collections) {
+  console.log(collection);
+}
 
 // These categories are deleted to avoid duplicate data collection
 delete categories.APPLICATION;
 delete categories.GAME;
 delete categories.FAMILY;
 
-// console.log(categories, Object.keys(categories).length);
+console.log(categories, Object.keys(categories).length);
 
-googlePlayAppsList(collections, categories, 500);
+googlePlayAppsList(collections, categories, 2000);
+googlePlayAppsListViaSearch(
+  (searchList = ["Kids", "Google Cast"]),
+  (priceList = ["free", "paid"]),
+  500
+);

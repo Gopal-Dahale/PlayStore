@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Skincare Routine",
+    "appId": "com.theordinaryguide.app",
+    "url": "https://play.google.com/store/apps/details?id=com.theordinaryguide.app",
+    "icon": "https://play-lh.googleusercontent.com/n8fPRXqNVNkrCGK4Mh4sFBTiNCVvD2CEvNRv1HTOR9FjbQWuROEUrq9xT_Pi2bxqm7c",
+    "developer": "Mento Apps Ltd",
+    "developerId": "7095241823954227725",
+    "priceText": "₹390.00",
+    "currency": "₹",
+    "price": 390,
+    "free": false,
+    "summary": "Manage your daily skin care beauty regimen &amp; track your skin&#39;s progress.",
+    "scoreText": "4.5",
+    "score": 4.48
+  },
+  {
+    "title": "Tattoo Font Designer PRO - Tattoo Maker",
+    "appId": "com.inknangels.TatAngelPro",
+    "url": "https://play.google.com/store/apps/details?id=com.inknangels.TatAngelPro",
+    "icon": "https://play-lh.googleusercontent.com/Gk3FYTbMBHidrRMbdHGo-HsgMGLFjPsGojhWjgQ2z09ydiHrTHzOnBJsGCWlgfsWLg",
+    "developer": "Evil Ink-Tattoo Design Apps and Calligraphy fonts",
+    "developerId": "8064602493591051077",
+    "priceText": "₹690.00",
+    "currency": "₹",
+    "price": 690,
+    "free": false,
+    "summary": "Pro Version❤️Zero ads💙Offline usage💜All fonts🖤Pay once and keep it forever",
+    "scoreText": "4.2",
+    "score": 4.211111
+  },
+  {
+    "title": "EFColorHelp",
+    "appId": "com.ejf.ejf_proj_2020_001",
+    "url": "https://play.google.com/store/apps/details?id=com.ejf.ejf_proj_2020_001",
+    "icon": "https://play-lh.googleusercontent.com/Rg76eNfp-kR5vb7c7p48jyaPh03vOQc6qTcR0Vt7pVQzCseDrXHLKDL7E5knZlzpG-g",
+    "developer": "Edson F.",
+    "developerId": "Edson+F.",
+    "priceText": "₹170.00",
+    "currency": "₹",
+    "price": 170,
+    "free": false,
+    "summary": "Chromatic circle",
+    "scoreText": "4.8",
+    "score": 4.8
+  }
+]
