@@ -86,23 +86,11 @@ async function googlePlayAppsList(collections, categories, maxCount = 500) {
 let collections = gplay.collection; // Object of collections
 let categories = gplay.category; // Object of categories
 
-// These collections are deleted to avoid duplicate data collection
-delete collections.TOP_FREE_GAMES;
-delete collections.TOP_GROSSING_GAMES;
-delete collections.TOP_PAID_GAMES;
-delete collections.NEW_PAID_GAMES;
-delete collections.NEW_FREE_GAMES;
-
 console.log(collections, Object.keys(collections).length);
 
 for (collection in collections) {
   console.log(collection);
 }
-
-// These categories are deleted to avoid duplicate data collection
-delete categories.APPLICATION;
-delete categories.GAME;
-delete categories.FAMILY;
 
 console.log(categories, Object.keys(categories).length);
 
@@ -110,5 +98,5 @@ googlePlayAppsList(collections, categories, 2000);
 googlePlayAppsListViaSearch(
   (searchList = ["Kids", "Google Cast"]),
   (priceList = ["free", "paid"]),
-  500
+  2000
 );
