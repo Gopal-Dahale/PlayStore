@@ -1,0 +1,158 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "id": "723",
+          "annotation_Taxon": "Saccharomyces cerevisiae",
+          "alias": [
+            "RPL31A",
+            "RPL34",
+            "S000002233",
+            "ribosomal protein L31A (L34A)(YL28)"
+          ],
+          "degree_layout": 1,
+          "name": "YDL075W"
+        }
+      },
+      {
+        "data": {
+          "id": "726",
+          "annotation_Taxon": "Saccharomyces cerevisiae",
+          "alias": [
+            "RP23",
+            "RPL16B",
+            "S000005013",
+            "ribosomal protein L16B (L21B)(rp23) (YL15)"
+          ],
+          "SUID": 726,
+          "degree_layout": 1,
+          "name": "YNL069C"
+        }
+      },
+      {
+        "data": {
+          "id": "658",
+          "annotation_Taxon": "Saccharomyces cerevisiae",
+          "alias": [
+            "RPL11B",
+            "S000003317",
+            "ribosomal protein L11B (L16B) (rp39B)(YL22)"
+          ],
+          "SUID": 658,
+          "degree_layout": 2,
+          "name": "YGR085C"
+        }
+      },
+      {
+        "data": {
+          "id": "660",
+          "annotation_Taxon": "Saccharomyces cerevisiae",
+          "alias": ["KAP108", "S000002803", "SXM1"],
+          "SUID": 660,
+          "degree_layout": 8,
+          "name": "YDR395W"
+        }
+      },
+      {
+        "data": {
+          "id": "579",
+          "annotation_Taxon": "Saccharomyces cerevisiae",
+          "alias": [
+            "RPL11A",
+            "S000006306",
+            "ribosomal protein L11A (L16A) (rp39A)(YL22)"
+          ],
+          "SUID": 579,
+          "degree_layout": 2,
+          "name": "YPR102C"
+        }
+      },
+      {
+        "data": {
+          "id": "578",
+          "annotation_Taxon": "Saccharomyces cerevisiae",
+          "alias": [
+            "GRC5",
+            "QSR1",
+            "RPL10",
+            "S000004065",
+            "ribosomal protein L10"
+          ],
+          "SUID": 578,
+          "degree_layout": 2,
+          "name": "YLR075W"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "id": "659",
+          "source": "658",
+          "target": "578",
+          "interaction": "pp",
+          "shared_interaction": "pp",
+          "SUID": 659,
+          "name": "YGR085C (pp) YLR075W"
+        }
+      },
+      {
+        "data": {
+          "id": "661",
+          "source": "658",
+          "target": "660",
+          "interaction": "pp",
+          "shared_interaction": "pp",
+          "SUID": 661,
+          "name": "YGR085C (pp) YDR395W"
+        }
+      },
+      {
+        "data": {
+          "id": "724",
+          "source": "660",
+          "target": "723",
+          "interaction": "pp",
+          "shared_interaction": "pp",
+          "SUID": 724,
+          "name": "YDR395W (pp) YDL075W"
+        }
+      },
+      {
+        "data": {
+          "id": "733",
+          "source": "660",
+          "target": "579",
+          "interaction": "pp",
+          "shared_interaction": "pp",
+          "SUID": 733,
+          "name": "YDR395W (pp) YPR102C"
+        }
+      },
+      {
+        "data": {
+          "id": "727",
+          "source": "660",
+          "target": "726",
+          "interaction": "pp",
+          "shared_interaction": "pp",
+
+          "SUID": 727,
+          "name": "YDR395W (pp) YNL069C"
+        }
+      },
+      {
+        "data": {
+          "id": "580",
+          "source": "578",
+          "target": "579",
+          "interaction": "pp",
+          "shared_interaction": "pp",
+          "SUID": 580,
+          "name": "YLR075W (pp) YPR102C"
+        }
+      }
+    ]
+  }
+}
