@@ -1,7 +1,7 @@
 # PlayStore Network Science
 We focused on analyzing the apps from the Google Play store that provides a wide range of data features (price, rating, etc.). A network of apps is formed usingthe scraped data from the official play store website and different centrality measures were analyzed. We checked the scale-free nature of the network and evaluated 3network community detection algorithms which led to interesting results. Our findings leverage graph theory and network analysis.
 
-For a more information regarding the project, see the [project report]() 
+For a more information regarding the project, see the [project report](https://github.com/Gopal-Dahale/PlayStore/tree/main/Report) 
 ## Scraping App Data
 Data was scraped using [google-play-scraper](https://github.com/facundoolano/google-play-scraper). `scrape.js` scrapes the data. `search_terms.js` was used to find search terms related to the categories name (`search_terms.txt`) and then `search_scrape.js` was used to scrape the data considering the searched terms. All the scraped app data is stored in `Data` directory.
 ## App Dataset Formation
@@ -27,4 +27,4 @@ Since it was not possible for us to work on such a huge network, we took a sampl
 ### Original Network
 Some analysis done on the original network is present in `Network Analysis Orig.ipynb`.
 ### Sampled Network
-Most of the analysis was done on the sampled network and can be found in `Analysis on Sampled Network.ipynb`
+Most of the analysis was done on the sampled network and can be found in `Analysis on Sampled Network.ipynb`. Columns were added to `Dataset.csv` during the analysis is present in `WIP` directory.
