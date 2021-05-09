@@ -1,0 +1,68 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "id": "com.something",
+          "price": 40,
+          "rating": 3.2,
+          "category": "GAME_ACTION",
+          "grossing": false,
+          "trending": true,
+          "icon": "https://play-lh.googleusercontent.com/2W4cq8U0TYX_GK4ITNya2LLsU5sDr1FK-uxFudp44yAmbSJIGhMvnwynrmg16Vt05yLH"
+        }
+      },
+      {
+        "data": {
+          "id": "com.something2",
+          "price": 60,
+          "rating": 4.2,
+          "category": "GAME_ADVENTURE",
+          "grossing": true,
+          "trending": true,
+          "icon": "https://play-lh.googleusercontent.com/1i7_zMJvX5GgqNywBT9Bmy4h2M_mr2QJUUYBoHLMbT751R7QI-YDXS7zcDgx8-_ohrdb"
+        }
+      },
+      {
+        "data": {
+          "id": "com.something3",
+          "price": 80,
+          "rating": 2.2,
+          "category": "LIFESTYLE",
+          "grossing": false,
+          "trending": false,
+          "icon": "https://play-lh.googleusercontent.com/IYWtrU8i-lBIcOgPauf8kkJsbaoIkVHf7EMC3g1Myv2qf-CVTew6-g3Mwex4RlK6eoM"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "source": "com.something",
+          "target": "com.something2",
+          "interaction": "Helen",
+          "source-score": 4,
+          "target-score": 2
+        }
+      },
+      {
+        "data": {
+          "source": "com.something",
+          "target": "com.something2",
+          "interaction": "Sam",
+          "source-score": 4,
+          "target-score": 4.2
+        }
+      },
+      {
+        "data": {
+          "source": "com.something2",
+          "target": "com.something3",
+          "interaction": "Ben",
+          "source-score": 0.2,
+          "target-score": 2.8
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "data": {
+      "source": "com.aurora.commando.shooting.games.free",
+      "target": "com.topnewgames.car.racing.game.free",
+      "source-score": 5.0,
+      "target-score": 5.0,
+      "interaction": "Alizay Zeeshan"
+    }
+  },
+  {
+    "data": {
+      "source": "com.aurora.commando.shooting.games.free",
+      "target": "com.netway.phone.advice",
+      "source-score": 5.0,
+      "target-score": 5.0,
+      "interaction": "Alizay Zeeshan"
+    }
+  },
+  {
+    "data": {
+      "source": "com.topnewgames.car.racing.game.free",
+      "target": "com.netway.phone.advice",
+      "source-score": 5.0,
+      "target-score": 5.0,
+      "interaction": "Alizay Zeeshan"
+    }
+  }
+]

@@ -1,4 +1,15 @@
 node_modules
+All_edges_files
 Data
+Data_Null
+Edges_basic
+Edges_intermediate
+Network_Data
 Reviews
-*.csv
+Sampled Graph
+SkippedFiles
+copy_fail_files.ipynb
+Dataset.csv
+Reviewers.csv
+WIP
+

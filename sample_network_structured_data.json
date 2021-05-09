@@ -1,0 +1,305 @@
+{
+  "app": {
+    "id": "activity.com.myactivity2",
+    "price": 0.0,
+    "rating": 4.2,
+    "category": "ANDROID_WEAR",
+    "grossing": 0,
+    "trending": 0,
+    "icon": "https://play-lh.googleusercontent.com/eRJm9hc7UN7WD5athy2IFdgoCsUuQxuzEyPgZXkifqZoqAll_Y9NJaZMpQ9W4ss3Nbw"
+  },
+  "reviewers": [
+    {
+      "name": "Satya Mohanty",
+      "score": 1
+    },
+    {
+      "name": "Siddhant Mishra",
+      "score": 1
+    },
+    {
+      "name": "Satvik Sharma",
+      "score": 4
+    },
+    {
+      "name": "A Google user",
+      "score": 1
+    },
+    {
+      "name": "H1N1",
+      "score": 1
+    },
+    {
+      "name": "Vaxo Gigauri",
+      "score": 1
+    },
+    {
+      "name": "Youtube Losers",
+      "score": 5
+    },
+    {
+      "name": "Purushottam Ki Scooter",
+      "score": 4
+    },
+    {
+      "name": "Vidyadhara S. Talya",
+      "score": 3
+    },
+    {
+      "name": "Aditya Nautiyal",
+      "score": 5
+    },
+    {
+      "name": "Madhav Sahi",
+      "score": 5
+    },
+    {
+      "name": "Rajesh singh kaintura",
+      "score": 5
+    },
+    {
+      "name": "Lokesh Saini",
+      "score": 5
+    },
+    {
+      "name": "Nayan Biske",
+      "score": 5
+    },
+    {
+      "name": "Sai Venkat",
+      "score": 3
+    },
+    {
+      "name": "Swagata Dutta",
+      "score": 5
+    },
+    {
+      "name": "INDIAN ARMY",
+      "score": 5
+    },
+    {
+      "name": "Chris Ejike",
+      "score": 5
+    },
+    {
+      "name": "Biswajit Das",
+      "score": 5
+    },
+    {
+      "name": "Varun Kumar Medam",
+      "score": 5
+    },
+    {
+      "name": "Mr Pushpendr Yadav",
+      "score": 4
+    },
+    {
+      "name": "Praneeth Vitharana",
+      "score": 4
+    },
+    {
+      "name": "Defence lover",
+      "score": 5
+    },
+    {
+      "name": "Hira Lal",
+      "score": 5
+    },
+    {
+      "name": "BHAGAT SINGH DEFENCE ACEDMY DIDWANA",
+      "score": 5
+    },
+    {
+      "name": "Mo Rizwan",
+      "score": 5
+    },
+    {
+      "name": "Amit Yadav",
+      "score": 5
+    },
+    {
+      "name": "\u4e48GAMING\u4e48\u4e48KGF\u4e48",
+      "score": 3
+    },
+    {
+      "name": "MOHIL M DANGAR",
+      "score": 5
+    },
+    {
+      "name": "VINNI GAUTAM",
+      "score": 5
+    },
+    {
+      "name": "Umesh Singh",
+      "score": 5
+    },
+    {
+      "name": "projesh ghosh",
+      "score": 4
+    },
+    {
+      "name": "ravi narayan",
+      "score": 4
+    },
+    {
+      "name": "Benjamin Tembo",
+      "score": 5
+    },
+    {
+      "name": "ANUJ CHAUDHARY",
+      "score": 4
+    },
+    {
+      "name": "Sanu Kumar Prajapati",
+      "score": 5
+    },
+    {
+      "name": "Rohan Bhardwaj",
+      "score": 5
+    },
+    {
+      "name": "Ravi Dhakad",
+      "score": 2
+    },
+    {
+      "name": "balvinder singh nagpal",
+      "score": 5
+    },
+    {
+      "name": "Mohit Chauhan",
+      "score": 5
+    },
+    {
+      "name": "Sakshi Kaushal",
+      "score": 5
+    },
+    {
+      "name": "JAV'S Gaming",
+      "score": 3
+    },
+    {
+      "name": "Sunny Patel",
+      "score": 5
+    },
+    {
+      "name": "ekta srivastava",
+      "score": 5
+    },
+    {
+      "name": "Manish Kumar",
+      "score": 5
+    },
+    {
+      "name": "Sayee sai",
+      "score": 3
+    },
+    {
+      "name": "Ashu Gaur",
+      "score": 4
+    },
+    {
+      "name": "Sumeet yadav",
+      "score": 5
+    },
+    {
+      "name": "chetan raj",
+      "score": 5
+    },
+    {
+      "name": "Brendel, Matthias",
+      "score": 2
+    },
+    {
+      "name": "H Mia",
+      "score": 5
+    },
+    {
+      "name": "manish kumar",
+      "score": 5
+    },
+    {
+      "name": "Narbir Rao",
+      "score": 5
+    },
+    {
+      "name": "Shubham Narula",
+      "score": 5
+    },
+    {
+      "name": "vrinda kapoor",
+      "score": 5
+    },
+    {
+      "name": "Shivika",
+      "score": 5
+    },
+    {
+      "name": "vikrant sanke",
+      "score": 3
+    },
+    {
+      "name": "Santosh Verma",
+      "score": 5
+    },
+    {
+      "name": "atul anand",
+      "score": 5
+    },
+    {
+      "name": "sneha bebo sshh",
+      "score": 5
+    },
+    {
+      "name": "Nikhil Dutt",
+      "score": 5
+    },
+    {
+      "name": "Vs Official070",
+      "score": 5
+    },
+    {
+      "name": "Chirag Yadav",
+      "score": 5
+    },
+    {
+      "name": "Isarat Ali",
+      "score": 5
+    },
+    {
+      "name": "faruk Gouri Mohammad",
+      "score": 5
+    },
+    {
+      "name": "Rushil Taneja",
+      "score": 5
+    },
+    {
+      "name": "Ankur yadav",
+      "score": 5
+    },
+    {
+      "name": "Hemender Kumar",
+      "score": 5
+    },
+    {
+      "name": "Dutt dude",
+      "score": 5
+    },
+    {
+      "name": "jill cool sabari",
+      "score": 5
+    },
+    {
+      "name": "Anil Yadav",
+      "score": 5
+    },
+    {
+      "name": "Pawan Kocher",
+      "score": 5
+    },
+    {
+      "name": "only gaming",
+      "score": 1
+    }
+  ]
+}

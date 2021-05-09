@@ -1,6 +1,4 @@
-/**
- * Scraping Google play store data using google-play-scraper
- */
+// Scraping Google play store data using google-play-scraper
 
 const gplay = require("google-play-scraper"); // Scraper library
 const fs = require("fs"); // File Handling
